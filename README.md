@@ -1,7 +1,7 @@
 # fileConverter
 
 Perform the following command in command line at file location
-`npm install fs csv-parse'
+`npm install fs csv-parse`
 
 ```
 Arg1 = h: to convert permission set matrix to rows
