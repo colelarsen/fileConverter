@@ -19,7 +19,7 @@ else if(type == '1')
 }
 else if(type == 'h' || type == 'help')
 {
-    console.log('Arg1 = h: to convert permission set matrix to rows');
+    console.log('Arg1 = h: help');
     console.log('Arg1 = 0: to convert permission set matrix to rows');
     console.log('Arg1 = 1: to skills based delete ratings');
     console.log('Arg2: incoming file name');
