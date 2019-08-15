@@ -94,7 +94,7 @@ function transmitArray(oldArray)
     var newArray = [["key", "SobjecType", "id", "Permission Set Name", "CRUD", "PermissionsCreate", "PermissionsRead", "PermissionsEdit", "PermissionsDelete", "PermissionsViewAllRecords", "PermissionsModifyAllRecords"]];
     for(var i = 1; i < oldArray.length; i++)
     {
-        for(var j = 1; j < oldArray[i].length; j++)
+        for(var j = 2; j < oldArray[i].length; j++)
         {
             var row = [];
             var SobjectType = "";
@@ -109,13 +109,13 @@ function transmitArray(oldArray)
             row.push(SobjectType)
             //Id
             row.push("")
+
             //Permission Set Name
             row.push(PermissionSetName)
             
             
             row.push(oldArray[i][j])
-
-            if(CRUD == 'No Access')
+            if(CRUD == 'No Access' || CRUD == '')
             {
                 row.push('No Access');
                 row.push('No Access');
@@ -135,7 +135,7 @@ function transmitArray(oldArray)
                     row.push('FALSE');
                 }
 
-                if(CRUD.includes('R'))
+                if(CRUD.includes('R') || CRUD == 'No cost fields')
                 {
                     row.push('TRUE');
                 }
@@ -180,7 +180,6 @@ function transmitArray(oldArray)
                     row.push('FALSE');
                 }
             }
-            
             newArray.push(row);
         }
         
