@@ -3,9 +3,8 @@
 Perform the following command in command line at file location  
 `npm install fs csv-parse`  
   
-To run the program use the command
-
-`node formatConvert.js Arg1 'inbound_file_name' 'outbound_file_name'   
+To run the program use the command  
+`node formatConvert.js Arg1 'inbound_file_name' 'outbound_file_name'`  
 
 ```
 Arg1 = h: to convert permission set matrix to rows
