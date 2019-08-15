@@ -1,6 +1,6 @@
 # fileConverter
 
-Perform the following command in command line at file location  
+To install perform the following command in command line at file location  
 `npm install fs csv-parse`  
   
 To run the program use the command  
