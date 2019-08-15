@@ -91,7 +91,7 @@ function deleteLowerKey2(oldArray)
 
 function transmitArray(oldArray)
 {
-    var newArray = ["key", "SobjecType", "id", "Permission Set Name", "CRUD", "PermissionsCreate", "PermissionsRead", "PermissionsEdit", "PermissionsDelete", "PermissionsViewAllRecords", "PermissionsModifyAllRecords"];
+    var newArray = [["key", "SobjecType", "id", "Permission Set Name", "CRUD", "PermissionsCreate", "PermissionsRead", "PermissionsEdit", "PermissionsDelete", "PermissionsViewAllRecords", "PermissionsModifyAllRecords"]];
     for(var i = 1; i < oldArray.length; i++)
     {
         for(var j = 1; j < oldArray[i].length; j++)
