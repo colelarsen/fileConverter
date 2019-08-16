@@ -1,7 +1,7 @@
 # fileConverter
 Need to have Node.js installed  
 
-Download the project and unzip  
+Download the project and unzip, this is your project directory  
 
 To install perform the following command in command line in the project directory  
 `npm install fs csv-parse`  
