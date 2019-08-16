@@ -1,4 +1,6 @@
 # fileConverter
+Need to have Node.js installed  
+
 Download the project and unzip  
 
 To install perform the following command in command line in project directory  
