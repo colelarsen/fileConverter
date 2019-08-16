@@ -1,9 +1,10 @@
 # fileConverter
+Download the project and unzip  
 
-To install perform the following command in command line at file location  
+To install perform the following command in command line in project directory  
 `npm install fs csv-parse`  
   
-To run the program use the command  
+To run the program use the command in the project directory  
 `node formatConvert.js Arg1 'inbound_file_name' 'outbound_file_name'`  
 
 ```
