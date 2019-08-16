@@ -3,7 +3,7 @@ Need to have Node.js installed
 
 Download the project and unzip  
 
-To install perform the following command in command line in project directory  
+To install perform the following command in command line in the project directory  
 `npm install fs csv-parse`  
   
 To run the program use the command in the project directory  
