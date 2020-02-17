@@ -1,0 +1,23 @@
+{
+  "name": "fileconverter",
+  "version": "2.0.0",
+  "description": "Converts .csv files to other formats",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colelarsen/fileConverter.git"
+  },
+  "author": "Cole Larsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colelarsen/fileConverter/issues"
+  },
+  "homepage": "https://github.com/colelarsen/fileConverter#readme",
+  "dependencies": {
+    "csv-parse": "^4.8.5",
+    "fs": "0.0.1-security"
+  }
+}
