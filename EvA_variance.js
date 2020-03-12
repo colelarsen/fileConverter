@@ -23,7 +23,7 @@ function start(oldArray)
         }
         else
         {
-            if(currentRow[2]-0 != currentRow[6])
+            if(Math.abs(currentRow[2]-0 - currentRow[6]) >= 1)
             {
                 currentRow[7] = Math.abs(currentRow[2] - currentRow[6])
                 outputArray.push(currentRow);
