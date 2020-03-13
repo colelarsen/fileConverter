@@ -3,8 +3,13 @@ var parse = require('csv-parse')
 var utilities = require('./utilities');
 
 exports.start = start;
+exports.setMinimum = setMinimum;
 
-
+var minimum = 1;
+function setMinimum(min)
+{
+    minimum = min-0;
+}
 
 function start(oldArray)
 {
@@ -23,7 +28,7 @@ function start(oldArray)
         }
         else
         {
-            if(Math.abs(currentRow[2]-0 - currentRow[6]) >= 1)
+            if(Math.abs(currentRow[2]-0 - currentRow[6]) >= (minimum-0))
             {
                 currentRow[7] = Math.abs(currentRow[2] - currentRow[6])
                 outputArray.push(currentRow);
